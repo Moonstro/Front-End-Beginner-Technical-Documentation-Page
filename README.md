@@ -6,7 +6,7 @@ Repositório criando durante o curso:
 
 Responsive Web Design (FreeCodeCamp).
 
-O segundo projeto desse curso é a Technical Documentation Page.
+O quarto projeto desse curso é a Technical Documentation Page.
 
 Nesse projeto foram utilizadas:
 
