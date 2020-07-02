@@ -1,0 +1,59 @@
+body{
+  font-family:"Poppins";
+  background-color:#262626;
+  color:white;
+}
+header{
+  font-size:30px;
+  color:#0af;
+}
+
+.nav-div{
+  position:fixed;
+  /*O elemento é removido do fluxo normal de documentos e posicionado em relação ao visor */
+  left: 0px; /*colado à margem esquerda */
+  background-color:rgb(26,26,26);
+  width:300px;
+  /*height:96vh;*/
+  overflow:auto;
+  /*height: 90%;*/
+  top:5px;
+  bottom: 5px;
+  color:#0af;
+}
+
+main{
+  margin-left: 320px;
+}
+
+.links {
+  display: block; /*alinhamento a esquerda dos itens*/ 
+  height: 40px; 
+  padding-left: 30px; /*descola texto da margem*/  
+}
+
+.navbar-header{
+  text-align:center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.nav-link{
+  color: white;
+  text-decoration:none; /*retira sublinhado*/
+  transition:color .5s ease;
+}
+
+.nav-link:hover{
+  color:#0af;
+  
+}
+
+@media screen and (max-width:600px){
+  body{
+    font-size:10px;
+  }
+  .nav-div{
+    width:150px;
+  }
+}
